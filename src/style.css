@@ -1,0 +1,79 @@
+body {
+  color: blanchedalmond;
+  font-family: Fira Code;
+  background-image: url(../Exchange_Money_Conversion_to_Foreign_Currency.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 0px;
+  
+}
+
+label {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#button {
+background-color: rgb(243, 220, 87);
+width: 200px;
+height: 30px;
+border-radius: 10px;
+margin-left: 20%;
+}
+
+#fullcontend {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:60%;
+  padding-bottom: 2%;
+  margin-top: 4%;
+}
+
+#content {
+  height: 583px;
+  width: 900px;
+  left: 306px;
+  top: 290px;
+  border-radius: 20px;
+  overflow-y:scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.divs {
+  background-color: rgb(7, 6, 6);
+  margin: 10px;
+  width: 150px;
+  height: 44px;
+  border-radius: 10px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#moeda{
+  height: 30px;
+  width: 250px;
+}
